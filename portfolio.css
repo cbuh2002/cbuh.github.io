@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.img_float {
+    float: none;
+}
+.menu_bar {
+    background-color: #F5C682;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    word-spacing: 25px;
+}
+
+ul li a {
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 100%;
+    text-align: center;
+}
+.intro_paragraph {
+    width: 100%;
+    padding-left: 0px;
+}
+
+@media (min-width:481px){
+.img_float {
+    float: right;
+}
+}
+
+.contact-form {
+    margin: 18px; 
+    padding: 18px;
+    border: 1px solid #F5C682; 
+  }
+
+  .contact-form label {
+    display: block;
+    margin: 6px; 
+  }
+
+  .contact-form button[type="submit"] {
+    background-color: #F5C682;
+    color: black; 
+    border: none; 
+    font-size: 16px; 
+  }
